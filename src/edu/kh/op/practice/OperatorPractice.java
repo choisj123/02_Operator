@@ -88,9 +88,40 @@ public class OperatorPractice {
 		System.out.printf("평균: %.1f", avg);
 		//System.out.printf(" 국어: %d\n 영어: %d\n 수학: %d\n 합계: %d\n 평균: %.2f\n ", korean, english, math, sum, avg);
 
+		boolean result = (korean >=40) && (english >=40) && (math >=40) && (avg >= 60);
 		
+		System.out.println();
+		System.out.println(result ? "합격" : "불합격");
+		//조건식 ? 식1 : 식2
 		
 	}
 	
+	public void practice4() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("점수1 : ");
+		int score1 = sc.nextInt();
+		
+		System.out.print("점수2 : ");
+		int score2 = sc.nextInt();
+		
+		System.out.print("점수3 : ");
+		int score3 = sc.nextInt();
+		
+		int sum = score1 + score2 + score3 / 3;
+		
+		
+		//score1 >= 40 && score2 >=40 && score3 >= 40) && (sum >= 60);
+		
+		String result = (score1 >= 40 && score2 >=40 && score3 >= 40) && (sum >= 60) ? "합격" : "불합격";
+		
+		System.out.println(result);
+		
+		
+		
 	
+	
+		
+	
+	}
 }

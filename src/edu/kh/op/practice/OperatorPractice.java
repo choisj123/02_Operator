@@ -12,7 +12,7 @@ public class OperatorPractice {
 			인원 수 : 29
 			사탕 개수 : 100
 			1인당 사탕 개수 : 3
-			남는 사탕 개수 : 13*/
+			남는 사탕 개수 : 13 */
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("인원 수: ");

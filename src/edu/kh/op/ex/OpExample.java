@@ -23,6 +23,7 @@ public class OpExample {
 		System.out.println("iNum2: " + iNum2); //10
 		
 	}
+
 	
 	
 	public void ex3() {

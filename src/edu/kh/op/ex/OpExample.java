@@ -11,6 +11,7 @@ public class OpExample {
 		System.out.println("OpExample 클래스에 ex1() 기능 수행");
 		
 	}
+	
 	//tip! 하나의 메소드 안에는 하나의 기능만 정의해야 함
 	public void ex2() {
 		int iNum1 = 10;
